@@ -19,7 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    OrderedDictionary *ordered = [OrderedDictionary dictionaryWithObjectsAndKeys:@"d", @"d", @"a", @"a", @"w", @"w", @"i", @"i", nil];
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"d", @"d", @"a", @"a", @"w", @"w", @"i", @"i", nil];
+    NSLog(@"ordered: %@\nnormal: %@", ordered, dict);
+
+    for (id key in ordered) {
+        NSLog(@"%@: %@", key, ordered[key]);
+    }
 }
 
 - (void)didReceiveMemoryWarning

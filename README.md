@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/EPOrderedDictionary.svg?style=flat)](http://cocoapods.org/pods/EPOrderedDictionary)
 [![Platform](https://img.shields.io/cocoapods/p/EPOrderedDictionary.svg?style=flat)](http://cocoapods.org/pods/EPOrderedDictionary)
 
+**An implementation of the ordered dictionary for iOS**
+
+## Overview
+
+It's known that the `NSDictionary` and `NSMutableDictionary` in Foundation framework are all unordered collections of key-value pairs, but in some real scenarios, we do need the data structure to hold the ordered key-value pairs. In order to fill this kind of gap, this library was born.
+
+The library contains only two classes: `OrderedDictionary` and `OrderedMutableDictionary`. `OrderedDictionary` is an immutable(static) ordered dictionary, and `OrderedMutableDictionary` is a mutable(dynamic) ordered dictionary.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Xcode 7.0+, iOS 2.0+
 
 ## Installation
 
@@ -17,12 +27,12 @@ EPOrderedDictionary is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EPOrderedDictionary'
+pod 'EPOrderedDictionary', '~> 0.1.1'
 ```
 
 ## Author
 
-zhanghu, 1145512680@qq.com
+zhanghu
 
 ## License
 
