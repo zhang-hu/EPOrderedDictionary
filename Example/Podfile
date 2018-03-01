@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EPOrderedDictionary_Example' do
+  pod 'EPOrderedDictionary', :path => '../'
+
+  target 'EPOrderedDictionary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
