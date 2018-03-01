@@ -22,7 +22,7 @@ pod 'EPOrderedDictionary'
 
 ## Author
 
-zhang-hu, zhanghu.xian@haier.com
+zhanghu, 1145512680@qq.com
 
 ## License
 

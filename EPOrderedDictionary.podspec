@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EPOrderedDictionary'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EPOrderedDictionary.'
+s.name             = 'EPOrderedDictionary'
+s.version          = '0.1.0'
+s.summary          = 'An implementation of the ordered dictionary for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,23 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+An implementation of the ordered dictionary for iOS.
+DESC
 
-  s.homepage         = 'https://github.com/zhang-hu/EPOrderedDictionary'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhang-hu' => 'zhanghu.xian@haier.com' }
-  s.source           = { :git => 'https://github.com/zhang-hu/EPOrderedDictionary.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/zhang-hu/EPOrderedDictionary'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'zhanghu' => '1145512680@qq.com' }
+s.source           = { :git => 'https://github.com/zhang-hu/EPOrderedDictionary.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '2.0'
 
-  s.source_files = 'EPOrderedDictionary/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EPOrderedDictionary' => ['EPOrderedDictionary/Assets/*.png']
-  # }
+s.source_files = 'EPOrderedDictionary/Classes/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.resource_bundles = {
+#   'EPOrderedDictionary' => ['EPOrderedDictionary/Assets/*.png']
+# }
 end
+

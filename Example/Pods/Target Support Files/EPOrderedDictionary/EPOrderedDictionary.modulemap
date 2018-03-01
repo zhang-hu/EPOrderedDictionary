@@ -1,0 +1,6 @@
+framework module EPOrderedDictionary {
+  umbrella header "EPOrderedDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}
